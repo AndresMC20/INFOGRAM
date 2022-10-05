@@ -42,10 +42,11 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:backgroundTint="@color/colorPrimary"
+                    android:shadowColor="@color/black"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
-                    android:hint="Nombre de Usuario">
+                    android:hint="@string/nombre_de_usuario">
                 </com.google.android.material.textfield.TextInputEditText>
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -59,7 +60,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
-                    android:hint="Contraseña">
+                    android:hint="@string/contrasena">
                 </com.google.android.material.textfield.TextInputEditText>
 
             </com.google.android.material.textfield.TextInputLayout>
