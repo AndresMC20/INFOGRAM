@@ -38,32 +38,49 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextWhite">
+
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:backgroundTint="@color/colorPrimary"
-                    android:shadowColor="@color/black"
+                    android:paddingTop="30dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
                     android:hint="@string/nombre_de_usuario">
+
                 </com.google.android.material.textfield.TextInputEditText>
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextWhite">
+
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:backgroundTint="@color/colorPrimary"
+                    android:layout_marginTop="20dp"
+                    android:paddingTop="30dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
                     android:hint="@string/contrasena">
+
                 </com.google.android.material.textfield.TextInputEditText>
 
             </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/button_text"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:theme="@style/RaiseButtonDark">
+
+            </Button>
+
 
         </LinearLayout>
 

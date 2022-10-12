@@ -13,4 +13,30 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="EditTextWhite" parent="Theme.MaterialComponents.DayNight">
+        <!-- para el tamano de letra que se escriba en el hint -->
+        <item name="android:textSize">@dimen/editText_textSize</item>
+
+        <!-- para la letra pequena del hint -->
+        <item name="android:textColorHint">@color/editText_textColorHint</item>
+
+        <!-- para la letra que se escribe en el espacio del hint -->
+        <item name="android:textColorPrimary">@color/editText_textColorPrimary</item>
+
+        <!-- para la linea horizontal del hint cuando NO esta seleccionado -->
+        <item name="colorControlNormal">@color/editText_colorControlNormal</item>
+
+        <!-- para la linea horizontal del hint cuando esta seleccionado -->
+        <item name="colorControlActivated">@color/editText_colorControlActivated</item>
+
+
+    </style>
+
+    <style name="RaiseButtonDark" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColor">@color/button_textColor</item>
+    </style>
+
 </resources>

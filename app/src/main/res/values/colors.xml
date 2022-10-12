@@ -7,6 +7,17 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
     <color name="colorPrimary">#FFB300</color>
+    <color name="colorPrimaryDark">#c68400</color>
     <color name="colorSecondary">#00A1FF</color>
+
+
+    <color name="editText_textColorHint">#FFFFFF</color>
+    <color name="editText_textColorPrimary">#FFFFFF</color>
+    <color name="editText_colorControlNormal">#FFFFFF</color>
+    <color name="editText_colorControlActivated">#FFFFFF</color>
+    <color name="button_textColor">#FFFFFF</color>
+
 </resources>
