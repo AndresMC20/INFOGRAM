@@ -6,4 +6,7 @@
     <string name="button_text">LOGIN</string>
     <string name="no_tienes_cuenta">"¿No tienes cuenta?, "</string>
     <string name="crea_una_aqui">crea una aqui</string>
+    <string name="Correo" />
+    <string name="Nombre">Nombre</string>
+    <string name="button_text_create_account">ÚNETE</string>
 </resources>

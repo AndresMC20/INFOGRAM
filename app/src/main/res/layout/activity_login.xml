@@ -96,7 +96,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/no_tienes_cuenta"
                         android:textSize="@dimen/textView_textSize"
-                        android:textColor="@color/textView_textColor">
+                        android:textColor="@color/editText_white">
                     </TextView>
 
                     <TextView
@@ -104,7 +104,7 @@
                         android:layout_height="wrap_content"
                         android:layout_toRightOf="@+id/no_tienes_cuenta"
                         android:text="@string/crea_una_aqui"
-                        android:textColor="@color/textView_textColor"
+                        android:textColor="@color/editText_white"
                         android:textSize="@dimen/textView_textSize"
                         android:textStyle="bold"
                         android:onClick="goCreateAccount">

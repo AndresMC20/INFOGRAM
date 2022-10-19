@@ -19,16 +19,35 @@
         <item name="android:textSize">@dimen/editText_textSize</item>
 
         <!-- para la letra pequena del hint -->
-        <item name="android:textColorHint">@color/editText_textColorHint</item>
+        <item name="android:textColorHint">@color/editText_white</item>
 
         <!-- para la letra que se escribe en el espacio del hint -->
-        <item name="android:textColorPrimary">@color/editText_textColorPrimary</item>
+        <item name="android:textColorPrimary">@color/editText_white</item>
 
         <!-- para la linea horizontal del hint cuando NO esta seleccionado -->
-        <item name="colorControlNormal">@color/editText_colorControlNormal</item>
+        <item name="colorControlNormal">@color/editText_white</item>
 
         <!-- para la linea horizontal del hint cuando esta seleccionado -->
-        <item name="colorControlActivated">@color/editText_colorControlActivated</item>
+        <item name="colorControlActivated">@color/editText_white</item>
+
+
+    </style>
+
+    <style name="EditTextBlack" parent="Theme.MaterialComponents.DayNight">
+        <!-- para el tamano de letra que se escriba en el hint -->
+        <item name="android:textSize">@dimen/editText_textSize</item>
+
+        <!-- para la letra pequena del hint -->
+        <item name="android:textColorHint">@color/editText_black</item>
+
+        <!-- para la letra que se escribe en el espacio del hint -->
+        <item name="android:textColorPrimary">@color/editText_black</item>
+
+        <!-- para la linea horizontal del hint cuando NO esta seleccionado -->
+        <item name="colorControlNormal">@color/editText_black</item>
+
+        <!-- para la linea horizontal del hint cuando esta seleccionado -->
+        <item name="colorControlActivated">@color/editText_black</item>
 
 
     </style>
@@ -36,7 +55,7 @@
     <style name="RaiseButtonDark" parent="Theme.MaterialComponents.DayNight">
         <item name="colorButtonNormal">@color/colorPrimaryDark</item>
         <item name="colorControlHighlight">@color/colorPrimary</item>
-        <item name="android:textColor">@color/button_textColor</item>
+        <item name="android:textColor">@color/editText_white</item>
     </style>
 
 </resources>
