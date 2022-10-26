@@ -14,6 +14,14 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="Theme.INFOGRAM.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- para la barra de arriba de la aplicacion-->
+    </style>
+
+    <style name="Theme.INFOGRAM.PopupOverlay" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- para el menu emergente -->
+    </style>
+
     <style name="EditTextWhite" parent="Theme.MaterialComponents.DayNight">
         <!-- para el tamano de letra que se escriba en el hint -->
         <item name="android:textSize">@dimen/editText_textSize</item>
