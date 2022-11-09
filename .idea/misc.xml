@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/drawable/checkbox_selector.xml" value="0.1615" />
         <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/layout/activity_create_account.xml" value="0.25416666666666665" />
         <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/layout/appbar_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/layout/cardview_image.xml" value="0.4" />
       </map>
     </option>
   </component>
