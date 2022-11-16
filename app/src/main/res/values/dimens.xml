@@ -13,6 +13,7 @@
     <dimen name="margin_fab">20dp</dimen>
     <dimen name="marginTop_cardview">20dp</dimen>
     <dimen name="margin_bottom_fab">50dp</dimen>
+    <dimen name="padding_card">10dp</dimen>
 
 
 </resources>
