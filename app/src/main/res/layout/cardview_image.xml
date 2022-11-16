@@ -4,7 +4,9 @@
     android:layout_height="@dimen/height_cardview"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="@dimen/corner_radius_cardview"
-    android:layout_margin="@dimen/margin_cardview">
+    android:layout_marginLeft="@dimen/margin_cardview"
+    android:layout_marginRight="@dimen/margin_cardview"
+    android:layout_marginTop="@dimen/marginTop_cardview">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -14,7 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/uyuni"
-            android:scaleType="centerCrop">
+            android:scaleType="centerCrop"
+            >
 
         </ImageView>
 

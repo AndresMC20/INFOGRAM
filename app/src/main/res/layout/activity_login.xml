@@ -81,7 +81,8 @@
                     android:layout_marginTop="50dp"
                     android:text="@string/button_text"
                     android:backgroundTint="@color/colorPrimaryDark"
-                    android:theme="@style/RaiseButtonDark">
+                    android:theme="@style/RaiseButtonDark"
+                    android:onClick="login">
 
                 </Button>
 

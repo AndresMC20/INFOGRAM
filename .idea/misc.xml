@@ -4,10 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/drawable/checkbox_selector.xml" value="0.1615" />
+        <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/layout/activity_container.xml" value="0.25416666666666665" />
         <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/layout/activity_create_account.xml" value="0.25416666666666665" />
         <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/layout/appbar_toolbar.xml" value="0.25416666666666665" />
-        <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/layout/cardview_image.xml" value="0.4" />
+        <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/layout/bottom_navigation_view.xml" value="0.253125" />
+        <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/layout/cardview_image.xml" value="0.264" />
+        <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/layout/fragment_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Programacion movil/proyecto INFOGRAM/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2076923076923077" />
       </map>
     </option>
   </component>
