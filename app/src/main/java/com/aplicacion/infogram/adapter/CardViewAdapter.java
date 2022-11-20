@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.aplicacion.infogram.R;
 import com.aplicacion.infogram.model.Image;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -44,6 +45,7 @@ public class CardViewAdapter extends RecyclerView.Adapter<CardViewAdapter.CardVi
     public void onBindViewHolder(@NonNull CardViewHolder holder, int position) {
         Image image = images.get(position);
         //image
+        Picasso.get().load(image.getUrlImage()).into(holder.imageCardView);
         holder.usernameCardView.setText(image.getUsername());
         holder.cantidadDiasCardView.setText(image.getCantidadDias());
         holder.cantidadMeGustaCardView.setText(image.getCantidadMeGusta());

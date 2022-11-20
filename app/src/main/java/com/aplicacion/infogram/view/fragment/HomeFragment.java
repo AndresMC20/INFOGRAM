@@ -101,17 +101,17 @@ public class HomeFragment extends Fragment {
     public ArrayList<Image> buidImages(){
         ArrayList<Image> images = new ArrayList<>();
 
-        images.add(new Image("", "Caros Valdivia", "2 dias", "1 me gusta"));
-        images.add(new Image("", "Limbert Sanchez", "3 dias", "8 me gusta"));
-        images.add(new Image("", "Daniel Mollinedo", "4 dias", "6 me gusta"));
-        images.add(new Image("", "Israel Zabala C", "1 dias", "6 me gusta"));
-        images.add(new Image("", "Joel Lester Soto", "6 dias", "5 me gusta"));
-        images.add(new Image("", "Noel Vallejos U", "5 dias", "7 me gusta"));
-        images.add(new Image("", "Alejandro Flores", "9 dias", "3 me gusta"));
-        images.add(new Image("", "Misael Nawel", "7 dias", "4 me gusta"));
-        images.add(new Image("", "Carlos Antezana", "3 dias", "9 me gusta"));
-        images.add(new Image("", "Andres Moral C", "1 dias", "20 me gusta"));
-        images.add(new Image("", "Moto Moto", "8 dias", "8 me gusta"));
+        images.add(new Image("https://www.boliviaentusmanos.com/turismo/imagenes/cristo-de-la-concordia-1.jpg", "Andres Moral C", "1 dias", "20 me gusta"));
+        images.add(new Image("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/1b/f4/2a/fuerte-de-samaipata.jpg?w=500&h=400&s=1", "Caros Valdivia", "2 dias", "1 me gusta"));
+        images.add(new Image("https://lh5.googleusercontent.com/-CINb2hHdBHc/VMfJjASBQDI/AAAAAAAAC0I/23gSET6uSaw/s640/blogger-image-979580039.jpg", "Limbert Sanchez", "3 dias", "8 me gusta"));
+        images.add(new Image("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Monumento_a_la_Virgen_Candelaria.JPG/500px-Monumento_a_la_Virgen_Candelaria.JPG", "Daniel Mollinedo", "4 dias", "6 me gusta"));
+        images.add(new Image("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/La_Glorieta_-_Sucre.jpg/1280px-La_Glorieta_-_Sucre.jpg", "Israel Zabala C", "1 dias", "6 me gusta"));
+        images.add(new Image("https://cdn.bolivia.com/sdi/2019/07/29/mi-teleferico-reporta-muerte-obrero-accidente-trabajo-linea-amarilla-757091.jpg", "Joel Lester Soto", "6 dias", "5 me gusta"));
+        images.add(new Image("https://mochilerosindinero.com/wp-content/uploads/2021/11/coroicoBolivia.jpg", "Noel Vallejos U", "5 dias", "7 me gusta"));
+        images.add(new Image("https://www.wamanadventures.com/blog/wp-content/uploads/2019/06/La-Laguna-Colorada-Waman-Adventures-1-1.jpg", "Alejandro Flores", "9 dias", "3 me gusta"));
+        images.add(new Image("https://boliviatravelsite.com/Images/Attractionphotos/incachaca-004.jpg", "Misael Nawel", "7 dias", "4 me gusta"));
+        images.add(new Image("https://www.viajesylugares.com/imagenes/copacabana505101_960_720.jpg", "Carlos Antezana", "3 dias", "9 me gusta"));
+        images.add(new Image("https://uyunisaltflat.com/Images/gallery/incahuasi-island-20.jpg", "Moto Moto", "8 dias", "8 me gusta"));
 
         return images;
     }
