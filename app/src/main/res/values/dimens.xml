@@ -14,6 +14,15 @@
     <dimen name="marginTop_cardview">20dp</dimen>
     <dimen name="margin_bottom_fab">50dp</dimen>
     <dimen name="padding_card">10dp</dimen>
+    <dimen name="height_image_detail">300dp</dimen>
+    <dimen name="textSize_username_image_datail">24sp</dimen>
+    <dimen name="marginTop_image_datail">10dp</dimen>
+    <dimen name="textSize_megusta_image_detail">14dp</dimen>
+    <dimen name="marginLeft_megusta_image_detail">5dp</dimen>
+    <dimen name="heigth_divider_image_datail">2dp</dimen>
+    <dimen name="textSize_title_image_detail">16sp</dimen>
+    <dimen name="paddingTop_image_datail">30dp</dimen>
+    <dimen name="marginEnd_fab_image_datail">30dp</dimen>
 
 
 </resources>

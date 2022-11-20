@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.aplicacion.infogram">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -15,6 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.INFOGRAM"
         tools:targetApi="31">
+
         <activity
             android:name=".view.ContainerActivity"
             android:exported="false" />
@@ -34,6 +35,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".LoginActivity" />
         </activity>
+
+        <activity
+            android:name=".view.ImageDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".view.ContainerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.ContainerActivity" />
+        </activity>
+
     </application>
 
 </manifest>

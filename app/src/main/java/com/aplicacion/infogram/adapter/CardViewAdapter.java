@@ -1,6 +1,7 @@
 package com.aplicacion.infogram.adapter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,11 +13,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.aplicacion.infogram.R;
 import com.aplicacion.infogram.model.Image;
+import com.aplicacion.infogram.view.ImageDetailActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class CardViewAdapter extends RecyclerView.Adapter<CardViewAdapter.CardViewHolder> {
 
@@ -49,6 +49,16 @@ public class CardViewAdapter extends RecyclerView.Adapter<CardViewAdapter.CardVi
         holder.usernameCardView.setText(image.getUsername());
         holder.cantidadDiasCardView.setText(image.getCantidadDias());
         holder.cantidadMeGustaCardView.setText(image.getCantidadMeGusta());
+
+        //onclicklistener
+        holder.imageCardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activity, ImageDetailActivity.class);
+                activity.startActivity(intent);
+            }
+        });
+
     }
 
     @Override
