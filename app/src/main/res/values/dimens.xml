@@ -23,6 +23,12 @@
     <dimen name="textSize_title_image_detail">16sp</dimen>
     <dimen name="paddingTop_image_datail">30dp</dimen>
     <dimen name="marginEnd_fab_image_datail">30dp</dimen>
+    <dimen name="paddingTop_linearLayout_profile">200dp</dimen>
+    <dimen name="paddingBottom_linearLayout_profile">20dp</dimen>
+    <dimen name="textSize_username_profile">30dp</dimen>
+    <dimen name="size_circle_image_profile">150dp</dimen>
+    <dimen name="marginTop_circle_image_profile">40dp</dimen>
+    <dimen name="elevatio_circle_image_profile">10dp</dimen>
 
 
 </resources>
